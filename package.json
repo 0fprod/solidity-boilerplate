@@ -1,0 +1,24 @@
+{
+  "name": "solidity-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for solidity projects with typescript, hardhat, ethers and typechain ",
+  "scripts": {
+    "test": "hardhat test",
+    "watch": "hardhat watch test",
+    "coverage": "hardhat coverage",
+    "compile": "hardhat compile",
+    "dev": "hardhat watch compilation",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "deploy:goerli": "hardhat run scripts/deploy.ts --network goerli"
+  },
+  "author": "0fprod",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.16.1",
+    "hardhat-watcher": "^2.5.0",
+    "typescript": "^5.1.6"
+  }
+}
